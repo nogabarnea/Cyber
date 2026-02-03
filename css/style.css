@@ -1,16 +1,9 @@
-/*
- * Password Manager - Simple Version
- * Basic CSS without animations
- */
-
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -18,14 +11,12 @@ body {
     line-height: 1.6;
 }
 
-/* Container */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Header */
 header {
     text-align: center;
     padding: 30px 0;
@@ -43,7 +34,6 @@ header p {
     font-size: 14px;
 }
 
-/* Cards */
 .card {
     background: white;
     border: 1px solid #ddd;
@@ -60,7 +50,6 @@ header p {
     padding-bottom: 10px;
 }
 
-/* Form Groups */
 .form-group {
     margin-bottom: 15px;
 }
@@ -85,7 +74,6 @@ header p {
     border-color: #9b59b6;
 }
 
-/* Buttons */
 .btn-primary {
     background-color: #9b59b6;
     color: white;
@@ -136,7 +124,6 @@ header p {
     margin-left: 5px;
 }
 
-/* Password List */
 #password-list {
     min-height: 100px;
 }
@@ -147,7 +134,6 @@ header p {
     padding: 30px;
 }
 
-/* Password Item */
 .password-item {
     border: 1px solid #eee;
     border-radius: 4px;
@@ -189,12 +175,10 @@ header p {
     gap: 5px;
 }
 
-/* Actions Section */
 .actions {
     text-align: center;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
